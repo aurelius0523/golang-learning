@@ -16,7 +16,7 @@ A small repository to journal my learnings while experimenting with golang
     func Area() { } //exported
     
     func main() {
-        sum() //accessible within this go file, but not from other files
+        sum() //accessible within this go package, but not from other packages 
         Area() //accessible from other files
     }
     ```
